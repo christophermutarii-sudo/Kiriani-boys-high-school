@@ -1,31 +1,23 @@
 {
-  "name": "Kiriani Boys High School - Official 2027",
+  "name": "Kiriani Boys High School",
   "short_name": "Kiriani Boys",
-  "description": "Shaping Boys Into Leaders Of Tomorrow - Strive For Excellence In God's Grace - Grade 11 Admissions 2027",
+  "description": "Principal, Leadership & Titans - Admissions 2027",
   "start_url": "./index.html",
-  "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#f7faf5",
-  "theme_color": "#0f1f0f",
+  "background_color": "#0f1f0f",
+  "theme_color": "#7a0000",
   "icons": [
     {
-      "src": "icon-512.png",
+      "src": "icon_combined_512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icon-192.png",
+      "src": "icon_combined_192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
     }
   ]
 }
