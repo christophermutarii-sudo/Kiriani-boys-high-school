@@ -1,23 +1,74 @@
 {
-  "name": "Kiriani Boys High School",
+  "name": "Kiriani Boys High School - Official Website 2027",
   "short_name": "Kiriani Boys",
-  "description": "Principal, Leadership & Titans - Admissions 2027",
+  "description": "SHAPING BOYS INTO LEADERS OF TOMORROW - Strive For Excellence In God's Grace - P.O. Box 69-0064 Chogoria - Admissions 2027",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "orientation": "any",
   "background_color": "#0f1f0f",
-  "theme_color": "#7a0000",
+  "theme_color": "#0f1f0f",
+  "id": "/",
+  "launch_handler": {
+    "client_mode": "auto"
+  },
   "icons": [
     {
-      "src": "icon_combined_512.jpg",
-      "sizes": "512x512",
-      "type": "image/jpg",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon_combined_192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Kiriani Boys High School"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Admissions 2027",
+      "short_name": "Apply",
+      "description": "Apply for Grade 11 2027",
+      "url": "./index.html#admissions",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Campus",
+      "short_name": "Campus",
+      "description": "View Campus Infrastructure",
+      "url": "./index.html#infrastructure",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Gallery",
+      "short_name": "Gallery",
+      "description": "Campus Life Gallery",
+      "url": "./index.html#gallery",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
